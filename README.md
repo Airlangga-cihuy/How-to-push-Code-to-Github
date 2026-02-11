@@ -6,8 +6,14 @@
 - git remote add origin https://github.com/Airlangga-cihuy/Project-2.git
 - git remote -v
 - git add .
-- git push codecommit --all
-- git push codecommit --tags
+-  git add -A
+-  git status
+-  git commit -m "Restructure project to repo root (remove profect2 folder & zip)"
+-  git push origin master
+-  git branch -M main
+-  git push -u origin main
+-  git push -u origin main --force
+
 
 
 
